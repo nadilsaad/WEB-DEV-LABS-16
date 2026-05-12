@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Internal style sheet-->
+    <style>
+            
+        nav {
+            background-color: gray;
+            padding: 10px;
+        }
+                nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        /* pseudo class */
+        a:hover{
+            color: aliceblue;
+        }
+       /* Element selector */
+       h1{font-size: xx-large;
+        font-style: italic;
+
+       }
+    </style>
+</head>
+<body>
+    <section>
+        <header id="header">
+            <h1 style="font-style: italic;">Elitruda Makupa</h1>
+            <h2>ISM Student</h2>
+        </header>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#skills" >Skills</a></li>
+            <li><a href="#routine" >Daily Routine</a></li>
+
+        </ul>
+    </nav>
+    <section id="about" class="section">
+        <h2>About me</h2>
+        <p>A web developer student at Ardhi University, passionate on developing systems that solve Real World problems </p></br>
+        <img src="images/OIP.jpg" alt="chichi's photo">
+
+    </section>
+    <section id="skills" class="section">
+        <h2>My skills</h2>
+        <p>I'm so compitence in numerous tech stacks such as;</p>
+        <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+
+    </section>
+    <section id="routine" class="section">
+        <h2>My Daily Routine</h2>
+        <ol>
+            <li>Wake up</li>
+            <li>Workout</li>
+            <li>breakfast</li>
+        </ol>
+
+    </section>
+
+    
+</body>
+</html>
