@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--fixed head-->
+    <header class="fixed-header">
+        <h1>CSS Layout Control</h1>
+
+    </header>
+    <!--sticky navigation-->
+    <nav class="sticky-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+    </nav>
+    <!--part 1 box model-->
+    <section class="box-section">
+        <div class="box">
+            <h2>Box One</h2>
+            <p>This box demostrate padding, margin and border.</p>
+        </div>
+        <div class="box">
+            <h2>Box Two</h2>
+            <p>Padding creates space inside the box.</p>
+        </div>
+        <div class="box">
+            <h2>Box Three</h2>
+            <p>Margin creates spae outside the box.</p>
+        </div>
+    </section>
+    
+    <!--part 2 positioning-->
+    <section class="position-section">
+        <div class="position-container">
+            <span class="label">NEW</span>
+            <p>This container uses relative positioning while 
+                the label uses absolute positioning.
+            </p>
+        </div>
+    </section>
+    <!--part 3 float layout-->
+    <section class="float-layout">
+        <div class="main-content">
+            <p>This section floats to the left. </p>
+            <p>Float removes elements from normal document flow.</p>
+        </div>
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <p>This side bar floats to the right.</p>
+        </div>
+        <!--footer-->
+        <footer class="footer">
+            Footer cleared using clear: both
+        </footer>
+    </section>
+    
+    
+</body>
+</html>
